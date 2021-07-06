@@ -1,0 +1,17 @@
+header{
+  width: 100%;
+}
+
+#Logo{
+  width: 40%;
+  display: inline-block;
+}
+
+nav{
+  display: inline-block;
+}
+
+li{
+  display: inline-block;
+  font-weight: bold;
+}
