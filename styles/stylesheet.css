@@ -1,5 +1,10 @@
+html{
+  background-color: #fffafa;
+}
+
 header{
   width: 100%;
+  background-color: #f5f5f5;
 }
 
 #Logo{
@@ -14,4 +19,38 @@ nav{
 li{
   display: inline-block;
   font-weight: bold;
+}
+
+.titulo-principal{
+  margin-left: 10%;
+  width: 50%;
+  font-size: 3em;
+  background-color: #dcdcdc;
+  display: inline-block;
+  padding: 5% 8%;
+}
+
+.bloco{
+  width: 5%;
+  display: inline-block;
+}
+
+#numero-bloco{
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.texto-bloco{
+  margin-top: 0;
+}
+
+.integrantes{
+  width: 80%;
+}
+
+li img{
+  display: inline-block;
+  width: 120px;
 }
