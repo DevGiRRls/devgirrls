@@ -1,5 +1,14 @@
-html{
-  background-color: #fffafa;
+
+#Logo{
+  padding: 5% 5%;
+  width: 40%;
+  display: inline-block;
+}
+
+header h1{
+  font-size: 2em;
+  font-weight: bold;
+ 
 }
 
 header{
@@ -7,18 +16,17 @@ header{
   background-color: #f5f5f5;
 }
 
-#Logo{
-  width: 40%;
-  display: inline-block;
-}
-
 nav{
   display: inline-block;
 }
 
-li{
+nav li{
   display: inline-block;
   font-weight: bold;
+}
+
+main{
+  padding: 10%;
 }
 
 .titulo-principal{
@@ -47,10 +55,29 @@ li{
 }
 
 .integrantes{
+  margin: auto;
   width: 80%;
 }
 
-li img{
+.integrantes ul{
+  display: flex; /* or inline-flex */
+}
+
+.integrantes li{
+  border: 3px solid palevioletred;
+  border-radius: 10px;
+  width:20%;
+  vertical-align: top;
+  margin: 10% 2%;
   display: inline-block;
+}
+
+.integrantes li h3{
+  font-weight: bold;
+  text-align: center;
+  padding: 30% 0;
+}
+
+li img{
   width: 120px;
 }
